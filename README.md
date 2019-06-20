@@ -22,4 +22,17 @@ Un-obscured data source is unfortunately not available to be posted publicly. Pi
 Predict whether or not a given student will finish a training course (0 = Not Complete, 1 = Complete)
 
 ## How can I run this myself?
+Methods of executing the notebook
+### In Google Colaboratory
 Upload the data_process notebook to Google Collaboratory and upload the pickle files to the root directory.
+
+### On your own machine
+Use anaconda to create an environment from the appropriate .yml file
+
+1. Nvidia GPU Tensorflow: tf_nvidia.yml
+2. Intel CPU TensorFlow: tf_intel.yml
+3. Base Tensorflow: tf.yml
+
+```
+conda env create -f environment.yml
+```
