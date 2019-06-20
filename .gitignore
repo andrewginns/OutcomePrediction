@@ -1,2 +1,5 @@
 
 .ipynb_checkpoints/AI4FWF_data_process-checkpoint.ipynb
+*.index
+*.data-00000-of-00001
+training_1/checkpoint
